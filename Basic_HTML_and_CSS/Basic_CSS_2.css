@@ -1,0 +1,11 @@
+h1{
+	text-shadow: 2px 2px 8px #FF0000;
+	text-align: center;
+}
+p	{
+	color: black;
+	background: Yellow;
+	font-style: bold;
+	text-align: center;
+	font-size: 27;
+}	
