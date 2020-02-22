@@ -3,13 +3,14 @@
 	<head>
 		<title>one_page_website.html</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../One-Page-Website/css/one_page_website.css">
 	</head>
 	<body>
 		
 		<!-- NAV -->
-		<div>
-			<div>	
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">	
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#videos" id="link"><li>VIDEOS</li></a>
@@ -21,8 +22,8 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
+			<div class="title-container">
+				<div id=title>
 				<span>Automobiles</span>
 				</div>
 			</div>
@@ -30,18 +31,19 @@
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- PHOTO CONTAINER 1-->
-					<div>
-						<div>
-							<img src="C:/Users/Student/Desktop/One-Page-Website/car-pics/bugattipic1.jpg" alt="Picture of Bugatti from the rear">
+					<div class="photo-container">
+						<div class="photo">
 							<div>
 								<h3>BUGATTI VEYRON</h3>
 							</div>
+							<img src="../One-Page-Website/car-pics/bugattipic1.jpg" alt="Picture of Bugatti from the rear">
+							<img src="../One-Page-Website/car-pics/bugattipic2.jpg" alt="Picture of Bugatti from the front">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 1-->
@@ -49,10 +51,11 @@
 					<!-- PHOTO CONTAINER 2-->
 					<div>
 						<div>
-							<img src="C:/Users/Student/Desktop/One-Page-Website/car-pics/mclarenpic1.jpg" alt="Picture of Mclaren from the rear">
 							<div>
 								<h3>MCLAREN 600LT</h3>
 							</div>
+							<img src="../One-Page-Website/car-pics/mclarenpic1.jpg" alt="Picture of Mclaren from the rear">
+							<img src="../One-Page-Website/car-pics/mclarenpic2.jpg" alt="Picture of Mclaren from the front">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 2-->
@@ -60,10 +63,11 @@
 					<!-- PHOTO CONTAINER 3-->
 					<div>
 						<div>
-							<img src="C:/Users/Student/Desktop/One-Page-Website/car-pics/ferraripic1.jpg" alt="Picture of Ferrari from the rear">
 							<div>
 								<h3>FERRARI F8</h3>
 							</div>
+							<img src="../One-Page-Website/car-pics/ferraripic1.jpg" alt="Picture of Ferrari from the rear">
+							<img src="../One-Page-Website/car-pics/ferraripic2.jpg" alt="Picture of Ferrari from the front">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 3-->
@@ -71,10 +75,11 @@
 					<!-- PHOTO CONTAINER 4-->
 					<div>
 						<div>
-							<img src="C:/Users/Student/Desktop/One-Page-Website/car-pics/lambopic1.jpg" alt="Picture of Lamborghini from the rear">
 							<div>
 								<h3>LAMBORGHINI AVENTADOR</h3>
 							</div>
+							<img src="../One-Page-Website/car-pics/lambopic1.jpg" alt="Picture of Lamborghini from the rear">
+							<img src="../One-Page-Website/car-pics/lambopic2.jpg" alt="Picture of Lamborghini from the front">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 4-->
@@ -82,10 +87,11 @@
 					<!-- PHOTO CONTAINER 5-->
 					<div>
 						<div>
-							<img src="C:/Users/Student/Desktop/One-Page-Website/car-pics/porschepic1.jpg" alt="Picture of Porsche from the rear">
 							<div>
 								<h3>PORSCHE 918 SPYDER</h3>
 							</div>
+							<img src="../One-Page-Website/car-pics/porschepic1.jpg" alt="Picture of Porsche from the rear">
+							<img src="../One-Page-Website/car-pics/porschepic2.jpg" alt="Picture of Porsche from the front">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 5-->
@@ -167,8 +173,8 @@
 		<!-- END VIDEOS -->
 		
 		<!-- CONTACT -->
-		<section>
-			<div id="contact">
+		<section id="contact">
+			<div class="contact-container">
 				<div>
 										<h1>Contact Us</h1>
 					<div>
@@ -183,10 +189,11 @@
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
 								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Most Wanted Car">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
